@@ -76,12 +76,12 @@ if (isset($_SESSION['loggedIn']) and $_SESSION['loggedIn'] == 'yes') {
         id="mainContainer">
         <form class="d-flex flex-column" action="partials/__handleSignup.php" method="post">
             <div class="form-floating mb-2 d-flex" id="formContainer">
-                <div class="form-floating me-2">
+                <div class="form-floating me-2" style="width: 100%">
                     <input type="text" class="form-control" id="floatingFName" placeholder="Arslan" name="FName"
                         required>
                     <label for="floatingFName" maxlength="255">First Name</label>
                 </div>
-                <div class="form-floating ms-2">
+                <div class="form-floating ms-2" style="width: 100%">
                     <input type="text" class="form-control" id="floatingName" placeholder="Khan" name="LName" required>
                     <label for="floatingLName" maxlength="255">Last Name</label>
                 </div>
